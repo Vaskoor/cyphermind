@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data & secrets
+.env
+data/cyphermind.db
+data/chromadb/
+data/q_table.json
+.env.local
+
+# Build
+frontend/.next/
+frontend/out/
+dist/
+
+# OS
+.DS_Store
+*.log

@@ -1,0 +1,62 @@
+{
+  "q_table": {
+    "92a62350ac5c24b8": {
+      "passive_subdomain_enum": 0.0,
+      "alive_host_detection": 0.0,
+      "url_endpoint_discovery": 0.0,
+      "js_analysis": 0.0,
+      "vuln_scanning": 0.0,
+      "subdomain_takeover": 0.0,
+      "subdomain_bruteforce": 0.0,
+      "infrastructure_mapping": 0.0,
+      "wayback_urls": 0.0,
+      "crawl_urls": 0.0,
+      "js_secret_scan": 0.0,
+      "directory_fuzz": 0.0,
+      "github_recon": 0.0,
+      "port_scan": 0.0,
+      "subdomain_takeover_check": 0.0
+    },
+    "9aca566663b5281e": {
+      "passive_subdomain_enum": 0.6945749999999999,
+      "alive_host_detection": 0.0,
+      "url_endpoint_discovery": 0.0,
+      "js_analysis": 0.0,
+      "vuln_scanning": 0.0,
+      "subdomain_takeover": 0.0,
+      "subdomain_bruteforce": 0.0,
+      "infrastructure_mapping": 0.0,
+      "wayback_urls": 0.0,
+      "crawl_urls": 0.0,
+      "js_secret_scan": 3.02911875,
+      "directory_fuzz": 0.0,
+      "github_recon": 0.0,
+      "port_scan": 0.0,
+      "subdomain_takeover_check": 0.0
+    },
+    "bb8f03b28c32904c": {
+      "passive_subdomain_enum": 0.58275,
+      "alive_host_detection": 0.0,
+      "url_endpoint_discovery": 1.3875,
+      "js_analysis": 0.30525,
+      "vuln_scanning": 0.0,
+      "subdomain_takeover": 0.0,
+      "subdomain_bruteforce": 0.09000000000000001,
+      "infrastructure_mapping": 0.0,
+      "wayback_urls": 0.0,
+      "crawl_urls": 0.0,
+      "js_secret_scan": 0.0,
+      "directory_fuzz": 0.0,
+      "github_recon": 0.0,
+      "port_scan": 0.0,
+      "subdomain_takeover_check": 0.0,
+      "active_subdomain_enum": 0.09000000000000001,
+      "waf_origin_discovery": 0.0,
+      "vhost_enumeration": 0.0,
+      "directory_discovery": 0.0,
+      "github_intel": 0.0,
+      "port_scanning": 0.0
+    }
+  },
+  "hunt_count": 5
+}
