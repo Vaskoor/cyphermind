@@ -545,3 +545,30 @@ See the `LICENSE` file for details.
 <p align="center">
   ⭐ Star the repository if you find CypherMind useful.
 </p>
+
+## Database Architecture
+
+This project uses a relational database (PostgreSQL-compatible). The full
+schema DDL is in [`database/schema.sql`](database/schema.sql).
+
+### Tables & Linkage
+
+| Table | Purpose | Key FKs |
+|-------|---------|---------|
+| `users` | User accounts, auth, roles | root entity |
+| (domain tables) | App-specific data | `user_id → users(id)` ON DELETE CASCADE |
+
+### Table Linkage (ERD)
+
+```
+users (1) ──< (N) domain_tables
+  │ id (PK)                      │ user_id (FK → users.id)
+  │ email (UQ)                   │ created_at
+  │ role
+```
+
+- **users** is the root; domain tables reference `users(id)` with `ON DELETE CASCADE`.
+- **Indexes** on all FK columns + frequently-filtered columns (date, status, category).
+- **Timestamps** (`created_at`) on all tables for auditability.
+- See [`database/schema.sql`](database/schema.sql) for the complete DDL.
+
