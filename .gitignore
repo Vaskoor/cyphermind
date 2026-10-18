@@ -20,3 +20,12 @@ dist/
 # OS
 .DS_Store
 *.log
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
